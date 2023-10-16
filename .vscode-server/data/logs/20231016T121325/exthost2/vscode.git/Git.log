@@ -1,0 +1,180 @@
+2023-10-16 12:14:12.183 [info] Log level: Info
+2023-10-16 12:14:12.185 [info] Validating found git in: "git"
+2023-10-16 12:14:12.185 [info] Using git "2.34.1" from "git"
+2023-10-16 12:14:12.185 [info] > git rev-parse --show-toplevel [36ms]
+2023-10-16 12:14:12.185 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-16 12:14:12.185 [info] > git rev-parse --show-toplevel [26ms]
+2023-10-16 12:14:12.185 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-16 12:14:12.185 [info] > git rev-parse --show-toplevel [14ms]
+2023-10-16 12:14:12.186 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-16 12:14:12.210 [info] > git rev-parse --show-toplevel [15ms]
+2023-10-16 12:14:12.210 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-16 12:14:42.552 [info] > git rev-parse --show-toplevel [6ms]
+2023-10-16 12:14:42.553 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-16 12:19:28.825 [info] > git rev-parse --show-toplevel [94ms]
+2023-10-16 12:19:28.826 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-16 12:21:27.060 [info] > git rev-parse --show-toplevel [3ms]
+2023-10-16 12:21:27.060 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-16 12:23:06.956 [info] > git rev-parse --show-toplevel [5ms]
+2023-10-16 12:23:06.956 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-16 12:25:44.637 [info] > git rev-parse --show-toplevel [3ms]
+2023-10-16 12:25:44.637 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-16 12:26:41.353 [info] > git rev-parse --show-toplevel [3ms]
+2023-10-16 12:26:41.353 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-16 12:26:53.203 [info] > git rev-parse --show-toplevel [2ms]
+2023-10-16 12:26:53.203 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-16 12:30:28.069 [info] > git rev-parse --show-toplevel [3ms]
+2023-10-16 12:30:28.069 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-16 12:32:57.150 [info] > git rev-parse --show-toplevel [3ms]
+2023-10-16 12:32:57.150 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-16 12:33:25.474 [info] > git rev-parse --show-toplevel [3ms]
+2023-10-16 12:33:25.474 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-16 12:33:26.994 [info] > git rev-parse --show-toplevel [3ms]
+2023-10-16 12:33:26.994 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-16 12:33:28.922 [info] > git rev-parse --show-toplevel [2ms]
+2023-10-16 12:33:28.922 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-16 12:34:11.132 [info] > git rev-parse --show-toplevel [3ms]
+2023-10-16 12:34:11.133 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-16 12:34:31.609 [info] > git rev-parse --show-toplevel [2ms]
+2023-10-16 12:34:31.610 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-16 12:34:43.869 [info] > git rev-parse --show-toplevel [4ms]
+2023-10-16 12:34:43.869 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-16 12:37:52.925 [info] > git rev-parse --show-toplevel [3ms]
+2023-10-16 12:37:52.925 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-16 12:37:53.927 [info] > git rev-parse --show-toplevel [2ms]
+2023-10-16 12:37:53.927 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-16 12:42:55.714 [info] > git rev-parse --show-toplevel [2ms]
+2023-10-16 12:42:55.722 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2023-10-16 12:42:55.749 [info] Open repository: /home/ubuntu
+2023-10-16 12:42:55.766 [info] No remotes found in the git config file.
+2023-10-16 12:42:55.768 [info] > git config --get commit.template [8ms]
+2023-10-16 12:42:55.771 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
+2023-10-16 12:42:56.096 [info] > git show --textconv :flaskr/main.py [6ms]
+2023-10-16 12:42:56.099 [info] > git ls-files --stage -- /home/ubuntu/flaskr/main.py [4ms]
+2023-10-16 12:42:56.176 [info] > git status -z -uall [396ms]
+2023-10-16 12:42:56.239 [info] No remotes found in the git config file.
+2023-10-16 12:42:56.240 [info] > git config --get commit.template [8ms]
+2023-10-16 12:42:56.242 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2023-10-16 12:42:56.262 [info] > git status -z -uall [16ms]
+2023-10-16 12:42:56.353 [info] > git check-ignore -v -z --stdin [25ms]
+2023-10-16 12:42:58.481 [info] No remotes found in the git config file.
+2023-10-16 12:42:58.482 [info] > git config --get commit.template [8ms]
+2023-10-16 12:42:58.484 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2023-10-16 12:42:58.502 [info] > git status -z -uall [13ms]
+2023-10-16 12:43:03.560 [info] No remotes found in the git config file.
+2023-10-16 12:43:03.561 [info] > git config --get commit.template [7ms]
+2023-10-16 12:43:03.563 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2023-10-16 12:43:03.582 [info] > git status -z -uall [14ms]
+2023-10-16 12:43:08.619 [info] No remotes found in the git config file.
+2023-10-16 12:43:08.620 [info] > git config --get commit.template [7ms]
+2023-10-16 12:43:08.622 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2023-10-16 12:43:08.647 [info] > git status -z -uall [21ms]
+2023-10-16 12:43:13.694 [info] No remotes found in the git config file.
+2023-10-16 12:43:13.695 [info] > git config --get commit.template [7ms]
+2023-10-16 12:43:13.697 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2023-10-16 12:43:13.715 [info] > git status -z -uall [14ms]
+2023-10-16 12:43:18.760 [info] No remotes found in the git config file.
+2023-10-16 12:43:18.761 [info] > git config --get commit.template [7ms]
+2023-10-16 12:43:18.763 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2023-10-16 12:43:18.783 [info] > git status -z -uall [15ms]
+2023-10-16 12:43:23.819 [info] No remotes found in the git config file.
+2023-10-16 12:43:23.820 [info] > git config --get commit.template [7ms]
+2023-10-16 12:43:23.822 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2023-10-16 12:43:23.843 [info] > git status -z -uall [17ms]
+2023-10-16 12:43:28.880 [info] No remotes found in the git config file.
+2023-10-16 12:43:28.881 [info] > git config --get commit.template [7ms]
+2023-10-16 12:43:28.882 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-10-16 12:43:28.901 [info] > git status -z -uall [14ms]
+2023-10-16 12:43:41.445 [info] No remotes found in the git config file.
+2023-10-16 12:43:41.445 [info] > git config --get commit.template [6ms]
+2023-10-16 12:43:41.447 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-10-16 12:43:41.522 [info] > git status -z -uall [71ms]
+2023-10-16 12:43:46.574 [info] > git config --get commit.template [6ms]
+2023-10-16 12:43:46.575 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-10-16 12:43:46.593 [info] > git status -z -uall [14ms]
+2023-10-16 12:43:47.545 [info] > git ls-files --stage -- /home/ubuntu/flaskr/main.py [3ms]
+2023-10-16 12:43:47.568 [info] > git show --textconv :flaskr/main.py [3ms]
+2023-10-16 12:43:51.633 [info] > git config --get commit.template [6ms]
+2023-10-16 12:43:51.635 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-10-16 12:43:51.654 [info] > git status -z -uall [15ms]
+2023-10-16 12:44:17.067 [info] > git config --get commit.template [7ms]
+2023-10-16 12:44:17.069 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2023-10-16 12:44:17.089 [info] > git status -z -uall [16ms]
+2023-10-16 12:44:20.301 [info] > git ls-files --stage -- /home/ubuntu/flaskr/main.py [2ms]
+2023-10-16 12:44:20.328 [info] > git show --textconv :flaskr/main.py [3ms]
+2023-10-16 12:44:22.144 [info] > git config --get commit.template [7ms]
+2023-10-16 12:44:22.146 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2023-10-16 12:44:22.164 [info] > git status -z -uall [13ms]
+2023-10-16 12:44:27.201 [info] > git config --get commit.template [6ms]
+2023-10-16 12:44:27.203 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2023-10-16 12:44:27.228 [info] > git status -z -uall [21ms]
+2023-10-16 12:44:32.270 [info] > git config --get commit.template [7ms]
+2023-10-16 12:44:32.272 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-10-16 12:44:32.291 [info] > git status -z -uall [15ms]
+2023-10-16 12:44:38.578 [info] > git config --get commit.template [6ms]
+2023-10-16 12:44:38.580 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-10-16 12:44:38.601 [info] > git status -z -uall [15ms]
+2023-10-16 12:44:47.670 [info] > git config --get commit.template [7ms]
+2023-10-16 12:44:47.673 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2023-10-16 12:44:47.700 [info] > git ls-files --stage -- /home/ubuntu/flaskr/main.py [3ms]
+2023-10-16 12:44:47.704 [info] > git status -z -uall [26ms]
+2023-10-16 12:44:47.762 [info] > git show --textconv :flaskr/main.py [4ms]
+2023-10-16 12:44:52.758 [info] > git config --get commit.template [8ms]
+2023-10-16 12:44:52.759 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2023-10-16 12:44:52.777 [info] > git status -z -uall [14ms]
+2023-10-16 12:44:57.814 [info] > git config --get commit.template [7ms]
+2023-10-16 12:44:57.816 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2023-10-16 12:44:57.835 [info] > git status -z -uall [15ms]
+2023-10-16 12:45:12.411 [info] > git config --get commit.template [7ms]
+2023-10-16 12:45:12.413 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2023-10-16 12:45:12.433 [info] > git status -z -uall [15ms]
+2023-10-16 12:45:53.106 [info] > git config --get commit.template [7ms]
+2023-10-16 12:45:53.108 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2023-10-16 12:45:53.128 [info] > git status -z -uall [15ms]
+2023-10-16 12:45:58.172 [info] > git config --get commit.template [6ms]
+2023-10-16 12:45:58.173 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2023-10-16 12:45:58.193 [info] > git status -z -uall [14ms]
+2023-10-16 12:45:59.602 [info] > git check-ignore -v -z --stdin [3ms]
+2023-10-16 12:46:10.944 [info] > git config --get commit.template [7ms]
+2023-10-16 12:46:10.946 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2023-10-16 12:46:10.966 [info] > git status -z -uall [15ms]
+2023-10-16 12:46:16.012 [info] > git config --get commit.template [6ms]
+2023-10-16 12:46:16.014 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2023-10-16 12:46:16.032 [info] > git status -z -uall [14ms]
+2023-10-16 12:46:16.576 [info] > git ls-files --stage -- /home/ubuntu/flaskr/main.py [3ms]
+2023-10-16 12:46:16.613 [info] > git show --textconv :flaskr/main.py [2ms]
+2023-10-16 12:46:21.069 [info] > git config --get commit.template [7ms]
+2023-10-16 12:46:21.071 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2023-10-16 12:46:21.089 [info] > git status -z -uall [14ms]
+2023-10-16 12:46:26.130 [info] > git config --get commit.template [7ms]
+2023-10-16 12:46:26.131 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2023-10-16 12:46:26.153 [info] > git status -z -uall [17ms]
+2023-10-16 12:46:37.858 [info] > git config --get commit.template [6ms]
+2023-10-16 12:46:37.861 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2023-10-16 12:46:37.881 [info] > git status -z -uall [15ms]
+2023-10-16 12:46:42.924 [info] > git config --get commit.template [7ms]
+2023-10-16 12:46:42.926 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2023-10-16 12:46:42.945 [info] > git status -z -uall [14ms]
+2023-10-16 12:46:47.702 [info] > git ls-files --stage -- /home/ubuntu/flaskr/main.py [3ms]
+2023-10-16 12:46:47.726 [info] > git show --textconv :flaskr/main.py [3ms]
+2023-10-16 12:46:47.984 [info] > git config --get commit.template [7ms]
+2023-10-16 12:46:47.989 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2023-10-16 12:46:48.008 [info] > git status -z -uall [14ms]
+2023-10-16 12:46:53.049 [info] > git config --get commit.template [6ms]
+2023-10-16 12:46:53.051 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2023-10-16 12:46:53.106 [info] > git status -z -uall [51ms]
+2023-10-16 12:46:58.162 [info] > git config --get commit.template [7ms]
+2023-10-16 12:46:58.163 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2023-10-16 12:46:58.182 [info] > git status -z -uall [14ms]
+2023-10-16 12:47:03.219 [info] > git config --get commit.template [6ms]
+2023-10-16 12:47:03.221 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2023-10-16 12:47:03.239 [info] > git status -z -uall [14ms]
+2023-10-16 12:47:08.276 [info] > git config --get commit.template [6ms]
+2023-10-16 12:47:08.277 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2023-10-16 12:47:08.295 [info] > git status -z -uall [14ms]
+2023-10-16 12:47:13.337 [info] > git config --get commit.template [7ms]
+2023-10-16 12:47:13.339 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2023-10-16 12:47:13.357 [info] > git status -z -uall [14ms]
+2023-10-16 12:47:18.409 [info] > git config --get commit.template [12ms]
+2023-10-16 12:47:18.411 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2023-10-16 12:47:18.447 [info] > git status -z -uall [28ms]

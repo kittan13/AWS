@@ -1,0 +1,12 @@
+2023-10-16 06:44:30.441 [info] 
+
+
+
+
+2023-10-16 06:44:30.441 [info] Extension host agent started.
+2023-10-16 06:44:30.468 [info] Started initializing default profile extensions in extensions installation folder. file:///home/ubuntu/.vscode-server/extensions
+2023-10-16 06:44:30.526 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/ubuntu/.vscode-server/extensions
+2023-10-16 06:44:30.565 [info] [127.0.0.1][4965e5ce][ExtensionHostConnection] New connection established.
+2023-10-16 06:44:30.566 [info] [127.0.0.1][f5321208][ManagementConnection] New connection established.
+2023-10-16 06:44:30.752 [info] [127.0.0.1][4965e5ce][ExtensionHostConnection] <1259> Launched Extension Host Process.
+2023-10-16 06:49:30.406 [info] New EH opened, aborting shutdown
